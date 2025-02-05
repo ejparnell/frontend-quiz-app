@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
 
 import { Container, FoldOutContainer, ContactInfo } from './ContactCardStyles'
 
@@ -19,11 +18,11 @@ export function ContactCard() {
                     <h3>Contact Me</h3>
                     <ContactInfo>
                         <p>Find Me:</p>
-                        <Link to='https://github.com/ejparnell' target='_blank'>GitHub</Link>
+                        <a to='https://github.com/ejparnell' target='_blank'>GitHub</a>
                         <br />
-                        <Link to='https://www.linkedin.com/in/elizabethjparnell/'>LinkedIn</Link>
+                        <a to='https://www.linkedin.com/in/elizabethjparnell/'>LinkedIn</a>
                         <p>Challenge by:</p>
-                        <Link to='https://www.frontendmentor.io?ref=challenge'>Frontend Mentor</Link>
+                        <a to='https://www.frontendmentor.io?ref=challenge'>Frontend Mentor</a>
                     </ContactInfo>
                 </FoldOutContainer>
             )}
